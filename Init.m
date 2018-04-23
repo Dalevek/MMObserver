@@ -23,8 +23,8 @@ B_d = zeros(s);
 
 row = size(B_d,1);
 col = size(B_d,2);
-row_B = size(B,1)
-col_B = size(B,2)
+row_B = size(B,1);
+col_B = size(B,2);
 
 col_temp=1;
 for r = 1:row_B:row
@@ -42,8 +42,8 @@ C_d = zeros(s);
 
 row = size(C_d,1);
 col = size(C_d,2);
-row_C = size(C,1)
-col_C = size(C,2)
+row_C = size(C,1);
+col_C = size(C,2);
 
 col_temp=1;
 for r = 1:row_C:row
@@ -61,8 +61,8 @@ L_d = zeros(s);
 row = size(L_d,1);
 col = size(L_d,2);
 
-row_L = size(L,1)
-col_L = size(L,2)
+row_L = size(L,1);
+col_L = size(L,2);
 
 col_temp=1;
 for r = 1:row_L:row
