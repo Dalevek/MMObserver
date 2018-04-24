@@ -1,3 +1,9 @@
+%% Wygenerowanie a_k %%
+
+a_k = 1/(size(A,1)+1)
+    
+
+
 %% Generowanie wartoœcio pocz¹tkowych x0 %%
 x0 = eye(size(A,1));
 x0_d = zeros(size(A,1),size(A,1)+1);
